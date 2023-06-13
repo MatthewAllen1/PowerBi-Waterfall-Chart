@@ -1,0 +1,18 @@
+PVM (Margin) Bridge =
+SWITCH (
+    SELECTEDVALUE ( Walk[WalkSort] ),
+    1, SWITCH (
+        SELECTEDVALUE ( PVM[PVM] ),
+        “Price”, -1 * [PVM Margin – Price Impact],
+        “Volume”, -1 * [PVM Margin – Volume Impact],
+        “Mix”, -1 * [PVM Margin – Mix Impact],
+        [Margin LY]
+    ),
+    2, SWITCH (
+        SELECTEDVALUE ( PVM[PVM] ),
+        “Price”, 0,
+        “Volume”, 0,
+        “Mix”, 0,
+        [Margin]
+    )
+)
