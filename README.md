@@ -1,1 +1,2 @@
-This waterfall chart took a lot of effort to show the change from last year to this year. PowerBi limits you to only showing a total instead of showing LY to TY. 
+This waterfall chart took a lot of effort to show the change from last year to this year. PowerBi limits you to only showing a total instead of showing LY to TY. For privacy issues I can't show my work exactly but I can show screenshots. For a reference I used this link to show the concept of creating something like this: https://businessintelligist.com/2020/06/12/power-bi-dax-how-to-make-waterfall-charts-work-showing-starting-and-ending-values/
+
