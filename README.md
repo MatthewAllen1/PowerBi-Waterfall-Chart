@@ -1,1 +1,1 @@
-# PowerBi-Waterfall-Chart
+This waterfall chart took a lot of effort to show the change from last year to this year. PowerBi usually limits you from doing this but it needed to be shown for one of my stakeholders. I created a table called Watersort to begin.
