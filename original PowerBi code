@@ -1,0 +1,8 @@
+PVM (Margin) =
+SWITCH (
+SELECTEDVALUE ( PVM[PVM] ),
+“Price”, [PVM Margin – Price Impact],
+“Volume”, [PVM Margin – Volume Impact],
+“Mix”, [PVM Margin – Mix Impact],
+BLANK ()
+)
